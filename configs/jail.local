@@ -1,0 +1,12 @@
+[DEFAULT]
+bantime  = 1h
+findtime = 10m
+maxretry = 5
+backend  = systemd
+banaction = ufw
+bantime.increment = true
+bantime.maxtime = 4w
+
+[sshd]
+enabled  = true
+maxretry = 3
