@@ -48,6 +48,10 @@ Before logging out, open a **new** terminal and confirm `ssh NEW_USER@server` wo
 - `configs/99-hardening.conf` → `/etc/sysctl.d/99-hardening.conf`
 - `configs/hardening.rules` → `/etc/audit/rules.d/hardening.rules`
 
+## Read the write-up
+
+**Harden a fresh Ubuntu 24.04 server with one command**: [dev.to](https://dev.to/veloxadev/harden-a-fresh-ubuntu-2404-server-with-one-command-open-source-2nge)
+
 ## License
 
 MIT
